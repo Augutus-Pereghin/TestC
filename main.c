@@ -2,8 +2,7 @@
 #include <readline/readline.h>
 
 int main(void) {
-  printf("Hello World\n");
-  char* name = readline("enter your name: ");
+  char* name = readline("Enter your name: ");
   printf("Hello, %s!\n" , name);
   return 0;
 }
